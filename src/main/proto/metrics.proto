@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.lightbend.grpc;
+
+message StartStreamRequest {}
+
+message MetricsResponse {
+  string timestamp    = 1;
+  uint64 counter      = 2;
+}
+
+message StopRequest {}
+
+service MetricsService {
+
+  // One request followed by a sequence of RaceMetricsResponses
+  rpc StartStreamingMetrics(StartStreamRequest)
+      returns (stream MetricsResponse);
+
+}

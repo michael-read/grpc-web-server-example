@@ -18,5 +18,5 @@ The gRPC-Web server runs in the background but logs will display once the React 
 
 ## Then start the client 
 
-Directions for running UI is [here](UI/README.md) in the UI subdirectory.
+Directions for running UI is [here](ui/README.md) in the UI subdirectory.
 

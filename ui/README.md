@@ -6,10 +6,10 @@ $ npm start
 
 ## How the project was created
 ```
-$ npx create-react-app UI
+$ npx create-react-app ui
 ```
 
-### install packages to project
+### Installed packages to project
 ```
 $ npm install grpc-web google-protobuf --save-dev
 $ npm install webpack webpack-cli --save-dev
@@ -17,7 +17,7 @@ $ npm install style-loader css-loader --save-dev
 $ npm install html-webpack-plugin --save-dev
 ```
 
-### Generate Protobuf Messages and Service Client Stub
+### Generated Protobuf Messages and Service Client Stub
 To generate the protobuf message classes from our metrics.proto, from the root of the UI  directory run the following command:
 
 ```
